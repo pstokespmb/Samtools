@@ -16,4 +16,4 @@
 
 module load samtools/1.8
 
-for i in /global/scratch/peter_stokes/stat_phylo/*.bam;do samtools index $i;done
+samtools index -b annKS_sorted_markdup_recal.bam annKS_sorted_markdup_recal.bam
